@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from autoPyTorch.api.NLP_classification import TabularClassificationTask, text_embeddings
 from codes.automated_fine_tuning_BERT_tabular_classification import rename_columns_based_on_content
 # Initialize the name of the test data file here
-test_data_name = "500emotions.csv"  # Update this to change the test data file
+test_data_name = "500jobs.csv"  # Update this to change the test data file
 data_folder = "/home/safikhani/main_repository/Auto-PyTorch_autoNLP/data"
 csv_file_path = os.path.join(data_folder, test_data_name)
 
