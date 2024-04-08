@@ -9,18 +9,18 @@ from autoPyTorch.api.NLP_classification import TabularClassificationTask, text_e
 from codes.automated_fine_tuning_BERT_tabular_classification import rename_columns_based_on_content
 
 # Define the paths to your CSV file and Python script
-csv_path = "/home/safikhani/main_repository/Auto-PyTorch_autoNLP/data/500emotions.csv"
-fine_tuning_step = "/home/safikhani/main_repository/Auto-PyTorch_autoNLP/codes/automated_fine_tuning_BERT_tabular_classification.py"
+#csv_path = "/home/safikhani/main_repository/Auto-PyTorch_autoNLP/data/500emotions.csv"
+#fine_tuning_step = "/home/safikhani/main_repository/Auto-PyTorch_autoNLP/codes/automated_fine_tuning_BERT_tabular_classification.py"
 
 # Execute the script with the CSV file as an argument
-try:
-    result = subprocess.run(['python', fine_tuning_step, csv_path], check=True, text=True, capture_output=True)
-    print("Script executed successfully.")
-    print("Output:", result.stdout)
-except subprocess.CalledProcessError as e:
-    print("Error occurred while executing the script.")
-    print("Error:", e)
-    print("Output:", e.output)
+#try:
+#    result = subprocess.run(['python', fine_tuning_step, csv_path], check=True, text=True, capture_output=True)
+#    print("Script executed successfully.")
+#    print("Output:", result.stdout)
+#except subprocess.CalledProcessError as e:
+#    print("Error occurred while executing the script.")
+#    print("Error:", e)
+#    print("Output:", e.output)
 
 # csv_path = "/home/safikhani/main_repository/Auto-PyTorch_autoNLP/data/500emotions.csv"
 # # test_data_name = '500emotions.csv'
